@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: rgb(233, 233, 233);
+    overflow: scroll;
+}
+
+.logo, .logo-image{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    padding: 3px 4px;
+    border-radius: 50%;
+} 
+.nav-item {
+    font-weight: 600;
+    color: black;
+}
+.bg-body-tertiary{
+    position: sticky;
+}
+header {
+    background-color: rgb(237, 230, 223);
+    height: 340px;
+    width: 100%;
+}
+section h1 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(86, 79, 79);
+}
+
+.row {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+    flex-basis: 50%;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+   
+}
+h2 {
+    margin-top: 200px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    color: #6f6f6f;
+    margin-left: 100px;
+}
+.col1{
+    flex-basis: 40%;
+}
+.col {
+    flex-basis: 40%;
+
+}
+.row-2 {
+    margin-top: 70px;
+    background-image: url(Images/backgroundimage.jpg);
+    background-position: 100%;
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: norepeat;
+    height: 400px;
+    width: 100%;
+}
+.row-3 {
+   margin-top: 200px;
+    margin-left: 200px;
+}
+.slideshow-container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-left: -100px;
+    
+   
+}
+  .mySlides{
+    width: 210px;
+    height: 280px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 1.4s;
+  
+  
+}
+.mySlides:hover {
+    transform: skewY(10deg);
+}
+.container {
+    margin-top: 70px;
+}
+.container p {
+    width: 340px;
+    flex-basis: 35%;
+}
+.row-4 {
+     display: inline-block;
+     flex-wrap: wrap;
+     column-gap: 12px;
+     row-gap: 20px;
+     text-align: center;
+     align-items: center;
+     margin: auto;
+     justify-content: center;
+     flex-basis: 40%;
+}
+
+.row-4  .image-template {
+    display: inline-flex;
+    width: 100%;
+    height: 480px;
+    border-radius: 4px;
+    flex-basis: 40%;
+    margin-left: 180px;
+}
+.accordion {
+    margin-top: 300px;
+    margin-bottom: 100px;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.footer-container {
+    height: 540px;
+    width: 100%;
+    background-color: #2e2e2e;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-container ul li  {
+   text-decoration: none;
+   list-style: none;
+    color: white;
+    align-items: left;
+    text-align: center;
+    justify-content: left;
+    cursor: pointer;
+}
+.footer-container ul li:hover{
+    font-weight: 700;
+    color: rgb(162, 161, 161);
+}
+.contact-info small {
+    color: white;
+    font-size: 20px;
+    display: block;
+
+
+}
+.contact-info a {
+    text-decoration: none;
+    font-size: larger;
+    color: darkolivegreen;
+    font-weight: 600;
+}
+.contact-info a:active{
+    color: black;
+}
+.contact-info a:hover {
+    color:antiquewhite;
+}
+.social-media {
+    display: flex;
+    
+}
+.fa-brands {
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    margin-left: 13px;
+    transition:  1.s;
+}
+.fa-solid {
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    margin-left: 13px;
+    transition:  1.s;
+}
+.fa-solid:hover{
+        color: rgb(18, 98, 98);
+        transform: translateY(-7px);
+    }
+
+.fa-brands:hover{
+    color: rgb(18, 98, 98);
+    transform: translateY(-7px);
+}
+fieldset h6{
+    color: rgb(172, 172, 172);
+    font-weight: 700;
+    text-decoration: underline;
+}
+h6 {
+    color: white;
+    font-size: x-large;
+
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: fit-content;
+}
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 2;
+}
+fieldset form {
+    display: inline-block;
+}
+fieldset form input {
+    padding: 8px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #82d07850;
+    width: 300px;
+}
+fieldset form input:active {
+    background-color: whitesmoke;
+    transition: 0.3s;
+}
+fieldset form input:hover {
+    background-color: aliceblue;
+}
+textarea {
+    display: flex;
+    background-color: #82d07850;
+    border-radius: 4px;
+    width: 200px;
+    height: 100px;
+}
+textarea:active {
+    background-color: whitesmoke;
+    transition: 0.3s;
+    color: black;
+    font-weight: 700;
+}
+textarea:hover {
+    background-color: whitesmoke;
+    transition: 0.3s;
+}
+.contact-form .btn {
+    width: 100px;
+    border-radius: 7px;
+    background-color: bisque;
+    color: black;
+    font-weight: 600;
+}
+.contact-form .btn:hover{
+    background-color: aliceblue;
+}
+.contact-form fieldset form .sub-section p{
+    color: white;
+    font-size: 24px;
+}
+.sub-section {
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+}
+.sub-section p {
+    color: white;
+    font-size: 28px;
+}
+.sub-section .subscribe{
+    padding: 3px;
+    border-radius: 6px;
+    height: 40px;
+    color: black;
+}
+.sub-section .btnn {
+    height: 44px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    
+}
+.sub-section .btnn:hover {
+    color: black;
+    font-weight: 600;
+    border-radius: 9px;
+    background-color: beige;
+}
+
+@media screen and (max-width:700px){
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    fieldset {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .container .image-template {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        margin-right: 300px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    fieldset {
+        display: none;
+    }
+}
+@media screen and (min-width:700px){
+    .contact-info {
+        display: none;
+    }
+}
