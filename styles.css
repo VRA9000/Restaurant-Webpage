@@ -199,14 +199,14 @@ h2 {
     color: white;
     cursor: pointer;
     margin-left: 13px;
-    transition:  1.s;
+    transition:  1s;
 }
 .fa-solid {
     font-size: 40px;
     color: white;
     cursor: pointer;
     margin-left: 13px;
-    transition:  1.s;
+    transition:  1s;
 }
 .fa-solid:hover{
         color: rgb(18, 98, 98);
