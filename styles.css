@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
 }
 html {
     background-color: rgb(233, 233, 233);
@@ -138,7 +142,12 @@ h2 {
      justify-content: center;
      flex-basis: 40%;
 }
-
+.container .row-4 h5 {
+    font-size: 42px;
+}
+.container .row-4 p{
+    font-size: 19px;
+}
 .row-4  .image-template {
     display: inline-flex;
     width: 100%;
@@ -147,6 +156,9 @@ h2 {
     flex-basis: 40%;
     margin-left: 180px;
 }
+.row-4{
+        margin-bottom: 20%;
+    }
 .accordion {
     margin-top: 300px;
     margin-bottom: 100px;
@@ -387,6 +399,9 @@ textarea:hover {
         text-align: center;
         align-items: center;
     } 
+    .row-4{
+        margin-bottom: 20%;
+    }
 }
 @media screen and (min-width:700px){
     .contact-info {
