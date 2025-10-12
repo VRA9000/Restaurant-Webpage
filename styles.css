@@ -6,7 +6,10 @@ html {
     background-color: rgb(233, 233, 233);
     overflow: scroll;
 }
-
+.container-fluid {
+    background-color: #ca9958;
+    padding: 2rem;
+}
 .logo, .logo-image{
     width: 150px;
     height: 150px;
@@ -64,6 +67,10 @@ h2 {
     margin: auto;
     color: #6f6f6f;
     margin-left: 100px;
+    font-size: 53px;
+}
+.row .col1 p {
+    font-size: 25px;
 }
 .col1{
     flex-basis: 40%;
@@ -78,8 +85,8 @@ h2 {
     background-position: 100%;
     background-size: cover;
     background-attachment:fixed;
-    background-repeat: norepeat;
-    height: 400px;
+    background-repeat:no-repeat;
+    height: 80vh;
     width: 100%;
 }
 .row-3 {
@@ -209,12 +216,12 @@ h2 {
     transition:  1s;
 }
 .fa-solid:hover{
-        color: rgb(18, 98, 98);
+        color: #ca9958;
         transform: translateY(-7px);
     }
 
 .fa-brands:hover{
-    color: rgb(18, 98, 98);
+    color: #ca9958;
     transform: translateY(-7px);
 }
 fieldset h6{
@@ -256,7 +263,7 @@ fieldset form input {
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    background-color: #82d07850;
+    background-color: #ca9958;
     width: 300px;
 }
 fieldset form input:active {
@@ -268,10 +275,11 @@ fieldset form input:hover {
 }
 textarea {
     display: flex;
-    background-color: #82d07850;
+    background-color: #ca9958;
     border-radius: 4px;
-    width: 200px;
+    width: 300px;
     height: 100px;
+    margin-top: 3%;
 }
 textarea:active {
     background-color: whitesmoke;
