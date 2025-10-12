@@ -368,6 +368,25 @@ textarea:hover {
     fieldset {
         display: none;
     }
+
+    .col1{
+        margin-top: 300px;
+       
+    }
+    .col {
+        display: flex;
+    }
+    #auto-text {
+        font-size: 26px;
+    }
+    .container {
+        text-align: center;
+    }
+    .container .row-4 h5 {
+        font-size: 29px;
+        text-align: center;
+        align-items: center;
+    } 
 }
 @media screen and (min-width:700px){
     .contact-info {
