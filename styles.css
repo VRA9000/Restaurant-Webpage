@@ -175,7 +175,7 @@ h2 {
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .footer-container ul li  {
    text-decoration: none;
@@ -377,9 +377,9 @@ textarea:hover {
         justify-content: center;
 
     }
-    fieldset {
+   /*  fieldset {
         display: none;
-    }
+    } */
     .row{
         display: flex;
         flex-direction: column;
@@ -412,9 +412,19 @@ textarea:hover {
     .row-4{
         margin-bottom: 20%;
     }
-}
-@media screen and (min-width:700px){
-    .contact-info {
-        display: none;
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        line-height: 2;
     }
+    .contact-form{
+        display: flex;
+
+    }
+}
+@media(min-width:700px){
+    /* .contact-info {
+        display: none;
+    } */
 }
